@@ -1,0 +1,87 @@
+.navbar {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .navbar {
+    width: 300px;
+    height: 90vh;
+    justify-content: space-around;
+  }
+}
+.nav-logo {
+  width: 30px;
+  height: 35px;
+}
+@media screen and (min-width: 768px) {
+  .nav-logo {
+    width: 55px;
+    height: 70px;
+  }
+}
+.nav-bar-menu {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+@media screen and (min-width: 768px) {
+  .menu {
+    flex-direction: column;
+  }
+}
+.menu-item {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  border-radius: 10px;
+  padding: 15px;
+}
+@media screen and (min-width: 768px) {
+  .menu-item {
+    width: 100%;
+  }
+}
+.select {
+  background-color: ;
+}
+.nav-button {
+  border: none;
+  padding: 0px;
+  background: transparent;
+}
+.nav-btn-img {
+  width: 25px;
+  height: 15px;
+  margin-right: 5px;
+}
+@media screen and (min-width: 768px) {
+  .nav-btn-img {
+    width: 35px;
+    height: 25px;
+  }
+}
+.nav-menu-name {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: normal;
+}
+@media screen and (min-width) {
+  .nav-menu-name {
+    font-size: 18px;
+  }
+}

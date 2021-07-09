@@ -1,0 +1,70 @@
+.contact-container {
+  width: 100%;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+}
+@media screen and (min-width: 768px) {
+  .contact-container {
+    width: 600px;
+    flex-grow: 1;
+    padding: 30px;
+  }
+}
+.contact-heading {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+  .contact-heading {
+    font-size: 34px;
+  }
+}
+.contact-image {
+  width: 90%;
+}
+@media screen and (min-width: 768px) {
+  .contact-image {
+    width: 400px;
+  }
+}
+.contact-description {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: normal;
+}
+@media screen and (min-width: 768px) {
+  .contact-description {
+    font-size: 22px;
+  }
+}
+.please-contact {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+  .please-contact {
+    font-size: 28px;
+  }
+}
+.contact-details {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: normal;
+}
+@media screen and (min-width: 768px) {
+  .contact-details {
+    font-size: 22px;
+  }
+}

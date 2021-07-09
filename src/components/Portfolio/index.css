@@ -1,0 +1,23 @@
+.portfolio-container {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .portfolio-container {
+    width: 85%;
+    height: 90vh;
+    flex-direction: row;
+    align-items: space-between;
+  }
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .content-container {
+    height: 70vh;
+    justify-content: space-between;
+  }
+}

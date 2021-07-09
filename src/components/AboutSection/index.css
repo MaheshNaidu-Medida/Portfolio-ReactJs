@@ -1,0 +1,138 @@
+.about-container {
+  width: 100%;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .about-container {
+    width: 600px;
+    flex-grow: 1;
+    padding: 30px;
+  }
+}
+.description-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.heading {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 34px;
+  }
+}
+.description {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: normal;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .skills-container {
+    display: flex;
+    align-items: center;
+  }
+}
+.education-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.skill-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.qualification-item {
+  display: flex;
+  align-items: center;
+}
+.checkbox-image {
+  width: 28px;
+  align-self: flex-start;
+}
+@media screen and (min-width: 768px) {
+  .checkbox-image {
+    width: 35px;
+  }
+}
+.qualification-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.qualification {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+  .qualification {
+    font-size: 22px;
+  }
+}
+.qualification-source {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+  .qualification-source {
+    font-size: 18px;
+  }
+}
+.skill-type {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+  .skill-type {
+    font-size: 28px;
+  }
+}
+.education-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.skill-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.skill-item {
+  background-color: #f8fafc;
+  padding: 15px;
+  border-radius: 18px;
+}
+.skill {
+  color: #ec4899;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 300;
+}
+@media screen and (min-width: 768px) {
+  .skill {
+    font-size: 22px;
+  }
+}
